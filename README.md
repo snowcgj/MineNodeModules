@@ -1,3 +1,5 @@
+ # 📦 个人项目
+
  ### 1、功能
  #### 1、目的
  开发uniapp时遇到一个功能，一直往里问，闻到了node module 跨平台的一个实现， 简单学习实现一下。  
@@ -6,17 +8,9 @@
 > *都还是十分简陋的功能，主要目的还是学习测试*     
 
 文件打开  
-摄像机     
+摄像机   
 
 
-**使用例子**     
-```js
-const { getFile } = require('my-apphxwx');
-
-getFile('./example.txt')
-  .then(content => console.log('文件内容:', content))
-  .catch(err => console.error('读取文件失败:', err));
-```  
 
  ### 2、目前效果
  经过了上传、下载测试，能够成功运行      
@@ -47,3 +41,27 @@ package-lock文件？
 
 ## 5、日志
 2024 12 9, 初次学习和提交    
+
+# 🚀 安装
+```
+npm install my-apphxwx
+```
+# 📘 使用方法 
+```js
+const { getFile } = require('my-apphxwx');
+
+getFile('./example.txt')
+  .then(content => console.log('文件内容:', content))
+  .catch(err => console.error('读取文件失败:', err));
+```  
+
+# 📄 许可证 (License)
+
+MIT License - 免费开源，欢迎贡献！
+
+
+
+
+
+[![npm version](https://img.shields.io/npm/v/my-apphxwx)](https://www.npmjs.com/package/my-apphxwx)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/snowcgj/MineNodeModules/blob/main/LICENSE)

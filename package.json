@@ -1,0 +1,16 @@
+{
+  "name": "my-apphxwx",
+  "version": "1.2.0",
+  "main": "src/funcs.js",
+  "type": "commonjs", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'no build process'"
+
+  },
+  "keywords": ["cross-platform", "file", "getFile"],
+  "author": "BATTAB",
+  "license": "MIT",
+  "description": "一个支持uniapp的跨H5，Android的APP和微信小程序的操作库，具体操作看src目录下funcs.js文件内部export(A node moule that supports mutile-platforms , like H5, Android and Wechat Qucik Small App).see the funcs.js's exports  to know what you can to with this module"
+}
+ 
